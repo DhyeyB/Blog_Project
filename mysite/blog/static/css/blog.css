@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+  }
+  
+  .techfont{
+      font-family: 'Roboto',sans-serif;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+  }
+
+  .bigbrand{
+      font-size: 1.5em;
+  }
+
+  .centerstage{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .postdate{
+    text-align: center;
+  }
+
+  .posttitle{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .postcontent{
+    font-family: 'Roboto';
+    font-size: 1.5em;
+  }
+
+  .btn-comment{
+    position: absolute;
+    right: 0px;
+  }
+
+  .loader {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 800;
+    }
+  
+  @keyframes rotate1 {
+    from {
+      transform: rotateX(35deg) rotateY(-45deg) rotateZ(0);
+    }
+  
+    to {
+      transform: rotateX(35deg) rotateY(-45deg) rotateZ(1turn);
+    }
+  }
+  
+  @keyframes rotate2 {
+    from {
+      transform: rotateX(50deg) rotateY(10deg) rotateZ(0);
+    }
+  
+    to {
+      transform: rotateX(50deg) rotateY(10deg) rotateZ(1turn);
+    }
+  }
+  
+  @keyframes rotate3 {
+    from {
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(0);
+    }
+  
+    to {
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(1turn);
+    }
+  }
+  
